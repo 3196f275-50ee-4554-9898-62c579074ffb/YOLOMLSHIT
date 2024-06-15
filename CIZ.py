@@ -4,7 +4,7 @@ import json
 from ultralytics import YOLO
 
 # Expand the path to the best.pt file
-model_path = os.path.expanduser('~/Documents/YOLOMLSHIT/best.pt')
+model_path = os.path.expanduser('~/Documents/YOLOMLSHIT/CIz.pt')
 
 # Load the YOLOv8 model
 model = YOLO(model_path)
